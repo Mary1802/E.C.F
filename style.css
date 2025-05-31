@@ -21,6 +21,7 @@ header .logo {
 
 header h3 {
     margin-top: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header ul {
@@ -224,10 +225,11 @@ header .lien:hover {
 .button-membres{
     padding: 20px;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 85%;
     background-color: rgb(243, 101, 148);
     border-color: rgb(243, 101, 148);
-    margin-top: 10px;
+    margin-top: 5px;
+    box-shadow: -2px 2px 10px palevioletred;
 }
 .button-membres a{
     text-decoration: none;
@@ -238,14 +240,173 @@ header .lien:hover {
     color: black;
 }
 
+/* STYLE-SECTION-ACTIVITES */
+.section3{
+    background-color: rgb(255, 154, 171);
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.activites{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.list-activites{
+    margin-top: 30px;
+}
+.activites h1{
+    color: white;
+    margin-left: 5px;
+}
+.activites h2{
+    color: black;
+    text-shadow: -2px 1px 3px whitesmoke;
+    margin-left: 20px;
+}
+.activite1{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.activite1 img{
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.activite1-txt{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.activite2{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.activite2 img{
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.activite2-txt{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.activite3{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.activite3 img{
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.activite3-txt{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.activite4{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.activite4 img{
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.activite4-txt{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h5{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
 /* STYLE-SECTION-CONTACTS */
 .section4{
-    display: inline-flex;
-    margin-top: 50px;
     background-color: black;
-    padding: 100px;
+    padding: 20px;
+    margin-top: 5px;
+}
+.contact{
+    display: flex;
+    margin-left: 50px;
+}
+.icones{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.section4 h2{
+    color: whitesmoke;
+    margin-top: 12px;
+    margin-right: 2px;
+    text-shadow: -2px 1px 3px pink;
+}
+.section4 h1{
+    color: palevioletred;
+    margin-top: 10px;
+    margin-left: 2px;
+
 }
 .section4 img{
     height: 50px;
-
+}
+.section4 a{
+    text-decoration: none;
+    color: pink;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+.section4 a:hover{
+    color: whitesmoke;
+}
+.instagram{
+    display: flex;
+}
+.mail{
+    display: flex;
+}
+.facebook{
+    display: flex;
+}
+.twitter{
+    display: flex;
+}
+.whatsapp{
+    display: flex;
 }
