@@ -245,16 +245,11 @@ header .lien:hover {
     background-color: rgb(255, 154, 171);
     margin-top: 20px;
     display: flex;
-    padding-bottom: 50px;
 }
 .activites{
     display: flex;
     margin-left: 20px;
     margin-top: 20px;
-}
-.list-activites{
-    margin-top: 30px;
-    display: flex;
 }
 .activites h1{
     color: white;
@@ -265,11 +260,59 @@ header .lien:hover {
     text-shadow: -2px 1px 3px whitesmoke;
     margin-left: 20px;
 }
+.list-activites{
+    margin-top: 5%;
+    display: flex;
+    gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.list-activites img{
+    height: 60%;
+    width: 70%;
 
+}
+.activite1 {
+    width: 40%;
+    height: 75%;
+    background-color: white;
+    border-radius: 2%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+
+}
+.activite2{
+    width: 40%;
+    height: 75%;
+    background-color: white;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 2%;
+}
 
 h5{
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin-top: 2%;
+}
+.list-activites a{
+    margin-left: 40%;
+    margin-top: 5%;
+    border: 1px solid rgb(252, 105, 129);
+    border-radius: 5px;
+    background-color: rgb(252, 105, 129);
+    width: 15%;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    box-shadow: -2px 2px 5px black;
+}
+.list-activites a:hover{
+    background-color: rgb(255, 154, 171);
+    border-color: rgb(255, 154, 171);
 }
 /* STYLE-SECTION-CONTACTS */
 .section4{
