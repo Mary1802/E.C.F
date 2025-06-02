@@ -71,42 +71,46 @@ header .lien:hover {
 
 .presentation {
     display: flex;
-    gap: 80px;
+    gap: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 
 #photos {
-    height: 450px;
-    width: 400px;
+    width: 70%;
+    height: 80%;
     border: none;
-    border-radius: 50%;
+    border-radius: 45%;
     background-color: rgba(233, 218, 218, 0.521);
-    margin-top: 5%;
     box-shadow: 0px 0px 10px white;
 }
 .slogan{
-    margin: 0;
-    padding: 0;
+    width: 70%;
+}
+.images{
+    width: 25%;
 }
 .presentation h2 {
     font-size: 50px;
-    margin-left: 10%;
     margin-top: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .presentation p {
     font-size: 30px;
-    margin-left: 10%;
     margin-top: 3%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 /* STYLE-BUTTON-SECTION1 */
 
 .infos {
-    margin-left: 10%;
+    margin-left: 1%;
     margin-bottom: 50px;
     border-radius: 10px;
     border-color: white;
     padding: 20px;
     box-shadow: 0 0 10px white;
+    margin-top: 4%;
 }
 
 .infos a {
@@ -119,7 +123,7 @@ header .lien:hover {
     color: rgb(243, 101, 148);
 }
 
-/* STYLE-SECTION2 */
+/* STYLE-SECTION2-PRESENTATION DES MEMBRES */
 
 .section2 {
     background-color: white;
@@ -240,7 +244,7 @@ header .lien:hover {
     color: black;
 }
 
-/* STYLE-SECTION-ACTIVITES */
+/* STYLE-SECTION3-ACTIVITES */
 .section3{
     background-color: rgb(255, 154, 171);
     margin-top: 20px;
@@ -259,6 +263,7 @@ header .lien:hover {
     color: black;
     text-shadow: -2px 1px 3px whitesmoke;
     margin-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .list-activites{
     margin-top: 5%;
@@ -266,30 +271,29 @@ header .lien:hover {
     gap: 2%;
     margin-left: 2%;
     margin-right: 2%;
+
 }
 .list-activites img{
     height: 60%;
-    width: 70%;
-
+    width: 95%;
 }
 .activite1 {
     width: 40%;
     height: 75%;
     background-color: white;
     border-radius: 2%;
-    padding-left: 3%;
+    padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 5%;
-
 }
 .activite2{
     width: 40%;
     height: 75%;
     background-color: white;
-    padding-left: 3%;
+    border-radius: 2%;
+    padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 5%;
-    border-radius: 2%;
 }
 
 h5{
@@ -309,12 +313,13 @@ h5{
     color: white;
     padding: 1%;
     box-shadow: -2px 2px 5px black;
+    transition: 0.5s;
 }
 .list-activites a:hover{
     background-color: rgb(255, 154, 171);
     border-color: rgb(255, 154, 171);
 }
-/* STYLE-SECTION-CONTACTS */
+/* STYLE-SECTION4-CONTACTS */
 .section4{
     background-color: black;
     padding: 20px;
@@ -323,6 +328,10 @@ h5{
 .contact{
     display: flex;
     margin-left: 50px;
+}
+.group-icon{
+    display: flex;
+    gap: 20%;
 }
 .icones{
     margin-left: 150px;
@@ -333,6 +342,7 @@ h5{
     margin-top: 12px;
     margin-right: 2px;
     text-shadow: -2px 1px 3px pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section4 h1{
     color: palevioletred;
@@ -351,6 +361,7 @@ h5{
 }
 .section4 a:hover{
     color: whitesmoke;
+    text-decoration: underline;
 }
 .instagram{
     display: flex;
@@ -366,4 +377,29 @@ h5{
 }
 .whatsapp{
     display: flex;
+}
+.menu{
+    margin-top: 5%;
+}
+.menu h3{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2%;
+}
+.home{
+    display: flex;
+}
+.about{
+    display: flex;
+}
+.join{
+    display: flex;
+}
+
+/* GESTION DU RESPONSIVE */
+@media (max-width: 950px) {
+    header a{
+        display: none;
+    }
+    
 }
