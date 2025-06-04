@@ -13,6 +13,9 @@ header img {
     margin-left: 10px;
     margin-top: 10px;
 }
+#menu{
+    display: none;
+}
 
 header .logo {
     display: flex;
@@ -66,7 +69,7 @@ header .lien:hover {
     border: 1px solid rgb(243, 101, 148);
     background-color: rgb(243, 101, 148);
     margin-top: 1%;
-
+    width: 100%;
 }
 
 .presentation {
@@ -74,6 +77,7 @@ header .lien:hover {
     gap: 5%;
     margin-top: 2%;
     margin-left: 5%;
+    width: 100%;
 }
 
 #photos {
@@ -105,10 +109,10 @@ header .lien:hover {
 
 .infos {
     margin-left: 1%;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
     border-radius: 10px;
     border-color: white;
-    padding: 20px;
+    padding: 3%;
     box-shadow: 0 0 10px white;
     margin-top: 4%;
 }
@@ -133,39 +137,35 @@ header .lien:hover {
     border: 1px solid black;
     background-color: black;
     color: white;
-    margin-top: 20px;
-    padding: 25px;
+    width: 100%;
+    margin-top: 1%;
+    padding: 2%;
 }
 
 .presentation-membres h2 {
-    margin-left: 500px;
+    margin-left: 38%;
 }
 
 .membres {
     display: flex;
-    gap: 60px;
-    margin-top: 50px;
+    gap: 5%;
+    margin-top: 2%;
     flex-wrap: wrap;
-    row-gap: 10px;
+    width: 100%;
+    justify-content: center;
 }
 
 .membres img {
     height: 300px;
-    border-radius: 10px;
+    border-radius: 5%;
 
-}
-
-.img-membre1 {
-    margin-left: 70px;
 }
 
 .about-membre1 {
     background-color: white;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 70px;
     
-
 }
 
 .about-membre2 {
@@ -186,15 +186,10 @@ header .lien:hover {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
-.img-membre5 {
-    margin-left: 70px;
-}
 .about-membre5 {
     background-color: white;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 70px;
 }
 
 .about-membre6 {
@@ -229,7 +224,7 @@ header .lien:hover {
 .button-membres{
     padding: 20px;
     border-radius: 10px;
-    margin-left: 85%;
+    margin-left: 79%;
     background-color: rgb(243, 101, 148);
     border-color: rgb(243, 101, 148);
     margin-top: 5px;
@@ -269,9 +264,10 @@ header .lien:hover {
     margin-top: 5%;
     display: flex;
     gap: 2%;
+    height: 60%;
     margin-left: 2%;
     margin-right: 2%;
-
+    margin-bottom: 2%;
 }
 .list-activites img{
     height: 60%;
@@ -284,7 +280,7 @@ header .lien:hover {
     border-radius: 2%;
     padding-left: 2%;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 .activite2{
     width: 40%;
@@ -293,7 +289,7 @@ header .lien:hover {
     border-radius: 2%;
     padding-left: 2%;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 h5{
@@ -304,7 +300,6 @@ h5{
 }
 .list-activites a{
     margin-left: 40%;
-    margin-top: 5%;
     border: 1px solid rgb(252, 105, 129);
     border-radius: 5px;
     background-color: rgb(252, 105, 129);
@@ -398,8 +393,156 @@ h5{
 
 /* GESTION DU RESPONSIVE */
 @media (max-width: 950px) {
-    header a{
+    /* RESPONSIVE-HEADER */
+    header .liens{
         display: none;
+    }
+    header h3{
+        font-size: 13px;
+       
+    }
+    header img{
+        height: 80px;
+        margin-right: 5px;
+    }
+    header .logo{
+        gap: 5px;
+    } 
+    #menu{
+        display: block;
+        height: 40px;
+        margin-left: 70%;
+        margin-top: 10%;
+    }
+    /* RESPONSIVE-SECTION1-PRESENTATION */
+    .section1{
+        overflow: hidden;
+    }
+    .presentation{
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+    .slogan h2{
+        font-size: 20px;
+        width: 100%;
+    }
+    .slogan p{
+        font-size: 15px;
+        width: 100%;
+        margin-top: 3%;
+    }
+    #photos{
+        width: 60%;
+        height: 70%;
+        margin-top: 10%;
+        margin-left: 5%;
+        
+    }
+    .infos h3{
+        font-size: 10px;
+    }
+    .infos{
+        margin-bottom: 5%;
+        box-shadow: -2px 0 5px white;
+        margin-top: 7%;
+        border-radius: 7px;
+    }
+    /* RESPONSIVE-SECTION2-MEMBRES */
+    .section2{
+        overflow: hidden;
+    }
+    .presentation-membres{
+        padding: 1%;
+    }
+    .presentation-membres h2{
+        font-size: 15px;
+        margin-left: 25%;
+    }
+    .membres{
+        display: flex;
+    }
+    .membres img{
+        width: 100%;
+        height: 50%;
+    }
+    .membres h3{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .membres h4{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    
+    .button-membres{
+        padding: 10px;
+        margin-left: 72%;
+    }
+
+    /* RESPONSIVE SECTION3-ACTIVITES */
+    .section3{
+        overflow: hidden;
+    }
+    .activites h2{
+        font-size: 15px;
+        margin: 0;
+    }
+    .list-activites{
+        display:inline;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    .activite1 {
+        margin-top: 10%;
+        width: 90%;
+        height: 50%;
+        margin-right: 2%;
+    }
+    .activite2 {
+        margin-top: 10%;
+        width: 90%;
+        height: 50%;
+        margin-right: 2%;
+    
+    }
+    /* RESPONSIVE-SECTION4-CONTACT */
+    .section4{
+        overflow: hidden;
+    }
+    .contact{
+        font-size: 10px;
+        margin: 0;
+    }
+    .contact h1{
+        font-size: 20px;
+    }
+    .group-icon{
+        width: 100%;
+        margin: 0;
+        display: inline;
+    }
+    .group-icon img{
+        height: 40px;
+    }
+    .group-icon a{
+        font-size: 15px;
+    }
+    .icones{
+        margin-left: 20%;
+    }
+    .menu{
+        margin-left: 10%;
     }
     
 }
+
+@media (max-width: 415px) {
+    #menu{
+        margin-left: 48%;
+    }
+    .button-membres{
+        padding: 7px;
+    }
+}
+    
