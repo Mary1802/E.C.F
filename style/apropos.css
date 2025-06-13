@@ -5,6 +5,7 @@
 /* STYLE-BARRE DE NAVIGATION */
 header {
     display: flex;
+    overflow: hidden;
 }
 
 header img {
@@ -67,6 +68,7 @@ header .lien:hover {
 .section1{
     background-color: rgb(243, 101, 148);
     margin-top: 1%;
+    overflow: hidden;
 }
 .presentation-ecf{
     display: flex;
@@ -100,6 +102,7 @@ header .lien:hover {
 /* SECTION2-MEMBRES DU COMITE ECF */
 .section2{
     margin-top: 2%;
+    overflow: hidden;
 }
 .section2 h1{
     margin-left: 2%;
@@ -218,6 +221,7 @@ header .lien:hover {
     background-color: black;
     padding: 20px;
     margin-top: 5px;
+    overflow: hidden;
 }
 .contact{
     display: flex;
@@ -296,8 +300,4 @@ header .lien:hover {
 }
 .footer p{
     color: white;
-}
-
-/* GESTION RESPONSIVE */
-@media (max-width: 950px) {
 }
