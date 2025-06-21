@@ -14,17 +14,17 @@
         <div class="logo">
             <img src="images/logoECF.jpg" alt="" id="logo">
             <h3>EVEIL DE LA CONSCIENCE <br>FEMININE</h3>
-            <img src="images/menuicon.png" alt="" id="menu">
-        </div>
-        <div class="liens">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="#contacts">Contact</a></li>
-                <li><a class="lien" href="postuler.html">DEVENIR MEMBRE</a></li>
-            </ul>
         </div>
     </header>
+    <div class="menu-liens">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apropos.html">About</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+            <li><a href="postuler.html">Join</a></li>
+        </ul>
+    </div>
+    <img src="images/menuicon.png" alt="" class="menu-btn">
     <!--PAGE D'ACCUEIL- BREVE PRESENTATION DE LA STRUCTURE-->
     <section class="section1" id="index.html">
         <div class="presentation">
@@ -212,4 +212,12 @@
         <div class="footer"><p>©Copyright Ir Marianah NGOY</p></div>
     </footer>
 </body>
+<script>
+    const btnMenu = document.querySelector(".menu-btn")
+    const linkMenu = document.querySelector(".menu-liens")
+
+    btnMenu.addEventListener('click', ()=>{
+        linkMenu.classList.toggle('menu-content')
+    })
+</script>
 </html>

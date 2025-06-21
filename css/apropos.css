@@ -5,16 +5,19 @@
 /* STYLE-BARRE DE NAVIGATION */
 header {
     display: flex;
-    overflow: hidden;
+    
 }
 
 header img {
     height: 100px;
     border-radius: 50%;
     margin-left: 10px;
-    margin-top: 2%;
+    margin-top: 10px;
 }
-#menu{
+.menu-btn{
+    display: none;
+}
+.menu-liens{
     display: none;
 }
 
@@ -96,7 +99,7 @@ header .lien:hover {
     height: 50%;
     border-radius: 40%;
     margin-left: 10%;
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 /* SECTION2-MEMBRES DU COMITE ECF */
@@ -300,4 +303,268 @@ header .lien:hover {
 }
 .footer p{
     color: white;
+}
+
+/* GESTION DU RESPONSIVE */
+@media (max-width: 950px) {
+    /* RESPONSIVE-HEADER */
+     header .liens{
+        display: none;
+    }
+    header h3{
+        font-size: 20px;
+        margin-top: 15%;
+    }
+    
+    header .logo{
+        gap: 5px;
+        margin-top: 0;
+    } 
+    .menu-btn{
+        position: absolute;
+        display: block;
+        top: -1%;
+        height: 40px;
+        left: 80%;
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    .menu-liens.menu-content{
+    margin-left: 0;
+    }
+    .menu-liens {
+        display: flex;
+        background-color: rgba(8, 7, 7, 0.205);
+        backdrop-filter: blur(8px);
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: 0.5s;
+    }
+    .menu-liens a{
+        display: flex;
+        color: white;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        margin-top: 40px;
+        transition: 0.5s;
+    }
+    .menu-liens a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    .menu-liens ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    /* RESPONSIVE-SECTION1-PRESENTATION */
+    .section1{
+        overflow: hidden;
+    }
+    .texte{
+        width: 100%;
+        margin: 2%;
+    }
+    .texte p{
+        font-size: 25px;
+        width: 100%;
+        margin-top: 3%;
+
+    }
+    .texte li{
+        font-size: 24px;
+        width: 100%;
+        margin-top: 1%;
+    }
+    #image{
+        display: none;
+    }
+
+     /* RESPONSIVE-SECTION2-MEMBRES */
+    .section2{
+        overflow: hidden;
+    }
+    .section2 h1{
+        font-size: 30px;
+    }
+    .membres{
+        padding: 1%;
+        width: 100%;
+    }
+    .membres h2{
+        font-size: 30px;
+        margin-left: 25%;
+    }
+    .membres img{
+        width: 100%;
+        height: 50%;
+    }
+    .membres h3{
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    .membres h4{
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    
+    /* RESPONSIVE-SECTION3-CONTACT */
+    .section4{
+        overflow: hidden;
+    }
+    .contact{
+        font-size: 15px;
+        margin: 0;
+    }
+    .contact h1{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    .group-icon{
+        width: 100%;
+        margin: 0;
+        display: inline;
+    }
+    .group-icon img{
+        height: 40px;
+    }
+    .group-icon a{
+        font-size: 20px;
+    }
+    .icones{
+        margin-left: 20%;
+    }
+    .menu{
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width: 912px) {
+    #logo{
+        margin-top: 50px;
+    }
+    header h3{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 550px) {
+    header h3{
+        font-size: 15px;
+    }
+    #logo{
+        height: 80px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 550px) {
+    header h3{
+        font-size: 15px;
+    }
+    #logo{
+        height: 80px;
+    }
+    #menu{
+        margin-left: 70%;
+    }
+    .texte p{
+        font-size: 15px;
+    }
+    .texte li{
+        font-size: 15px;
+    }
+    .membres h3{
+        font-size: 20px;
+    }
+    .membres h4{
+        font-size: 20px;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    .contact h1{
+        font-size: 15px;
+    }
+    .group-icon a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 450px) {
+   header h3{
+        font-size: 15px;
+        margin-top: 16%;
+    }
+    .menu-btn{
+        left: 85%;
+        top: 0.5%;
+    }
+    .texte p{
+        font-size: 15px;
+    }
+    .section2 h1{
+        font-size: 20px;
+    }
+    .membres h3{
+        font-size: 20px;
+    }
+    .membres h4{
+        font-size: 20px;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    .contact h1{
+        font-size: 15px;
+    }
+    .group-icon a{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 350px) {
+    header h3{
+        font-size: 10px;
+    }
+    .menu-btn{
+        top: 0.5%;
+    }
+    .section2 h1{
+        font-size: 20px;
+    }
+    .texte p{
+        font-size: 10px;
+    }
+    .texte li{
+        font-size: 12px;
+    }
+    .membres h2{
+        font-size: 15px;
+        margin-left: 15%;
+    }
+    .membres h3{
+        font-size: 15px;
+    }
+    .membres h4{
+        font-size: 15px;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    .contact h1{
+        font-size: 15px;
+    }
+    .group-icon a{
+        font-size: 13px;
+    }
 }
