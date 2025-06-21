@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+}
+
+/* STYLE-BARRE DE NAVIGATION */
+header {
+    display: flex;
+    overflow: hidden;
+}
+
+header img {
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 2%;
+}
+#menu{
+    display: none;
+}
+
+header .logo {
+    display: flex;
+    gap: 20px;
+}
+
+header h3 {
+    margin-top: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-left: 400px;
+    margin-top: 6%;
+}
+
+header a {
+    text-decoration: none;
+    font-size: larger;
+    transition: 0.5s;
+    color: black;
+}
+
+header a:hover {
+    color: rgb(243, 101, 148);
+    font-size: 25px;
+
+}
+
+header .lien {
+    color: white;
+    border: 1px solid palevioletred;
+    background-color: rgb(243, 101, 148);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+header .lien:hover {
+    font-size: none;
+    color: rgb(243, 101, 148);
+    background-color: black;
+    border-color: black;
+}
+
+/* STYLE-SECTION1-PRESENTATION */
+.section1{
+    background-color: rgb(243, 101, 148);
+    margin-top: 1%;
+    overflow: hidden;
+}
+.presentation-ecf{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    gap: 2%;
+}
+.texte{
+    width: 70%;
+}
+.texte p{
+    font-size: 20px;
+    margin-top: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.texte li{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image{
+    height: 100%;
+}
+#image{
+    width: 70%;
+    height: 50%;
+    border-radius: 40%;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+/* SECTION2-MEMBRES DU COMITE ECF */
+.section2{
+    margin-top: 2%;
+    overflow: hidden;
+}
+.section2 h1{
+    margin-left: 2%;
+}
+.membres {
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.membres img {
+    height: 300px;
+    border-radius: 5%;
+
+}
+
+.about-membre1 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.about-membre2 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.about-membre3 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-membre4 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre5 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-membre6 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-membre7 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-membre8 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre9 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre10 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre11 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre12 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre13 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre14 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-membre15 {
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.membres h3 {
+    color: rgb(243, 101, 148);
+    font-size: 20px;
+}
+
+.membres h4 {
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* STYLE-SECTION4-CONTACTS */
+.section3{
+    background-color: black;
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.contact{
+    display: flex;
+    margin-left: 50px;
+}
+.group-icon{
+    display: flex;
+    gap: 20%;
+}
+.icones{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.section3 h2{
+    color: whitesmoke;
+    margin-top: 12px;
+    margin-right: 2px;
+    text-shadow: -2px 1px 3px pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3 h1{
+    color: palevioletred;
+    margin-top: 10px;
+    margin-left: 2px;
+
+}
+.section3 img{
+    height: 50px;
+}
+.section3 a{
+    text-decoration: none;
+    color: pink;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+.section3 a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.instagram{
+    display: flex;
+}
+.mail{
+    display: flex;
+}
+.facebook{
+    display: flex;
+}
+.twitter{
+    display: flex;
+}
+.whatsapp{
+    display: flex;
+}
+.menu{
+    margin-top: 5%;
+}
+.menu h3{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2%;
+}
+.home{
+    display: flex;
+}
+.about{
+    display: flex;
+}
+.join{
+    display: flex;
+}
+.footer{
+    justify-items: center;
+    background-color: black;
+    padding-top: 1%;
+}
+.footer p{
+    color: white;
+}
