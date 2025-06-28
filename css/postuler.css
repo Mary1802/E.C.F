@@ -365,6 +365,7 @@ textarea:focus {
 
 .quiz input[type="submit"] {
     width: 25%;
+    color: black;
     margin-bottom: 5%;
     margin-top: 2%;
     margin-left: 35%;
@@ -379,7 +380,6 @@ textarea:focus {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .quiz input[type="submit"]:hover {
     background-color: rgb(247, 133, 171);
 }
@@ -643,6 +643,9 @@ textarea:focus {
     }
     #section3 .right-side3 .quiz{
         margin-left: 5%;
+    }
+    .quiz input[type="submit"]{
+        border-radius: 2px;
     }
     /* RESPONSIVE-SECTION4-CONTACT */
     .section4 {
