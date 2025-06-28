@@ -680,6 +680,9 @@ textarea:focus {
     .menu {
         margin-left: 10%;
     }
+    .footer{
+        margin-left: 20%;
+    }
 }
 
 @media (max-width: 912px) {
