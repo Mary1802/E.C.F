@@ -32,8 +32,8 @@
     </div>
     <img src="images/menuicon.png" alt="" class="menu-btn">
 
-    <!-- GENDER-->
     <form method="post" action="traitement.php">
+        <!-- GENDER-->
         <section id="section1">
             <div class="global-form">
                 <div class="left-side">
@@ -41,6 +41,27 @@
                 </div>
                 <div class="right-side">
                     <div class="title">
+                        <h3>INSCRIVEZ-VOUS</h3>
+                    </div>
+                    <div class="genre">
+                        <h4>Etes-vous un homme ou une femme ?</h4>
+                        <input type="radio" name="sex" id="homme" value="homme">
+                        <label for="homme">Homme</label><br>
+                        <input type="radio" name="sex" id="femme" value="femme">
+                        <label for="femme">Femme</label><br>
+                        <button type="button" onclick="verifierGenre()">NEXT</button>
+                        <div id="alert-homme"> Désolé, ce programme est réservé exclusivement aux femmes.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="global-form2">
+                <div class="left-side2">
+                    <h1>REJOIGNEZ-NOUS ET VIVEZ DES MOMENTS INOUBLIABLES !</h1>
+                </div>
+                <div class="right-side2">
+                    <div class="title2">
                         <h3>INSCRIVEZ-VOUS</h3>
                     </div>
                     <!-- PERSONAL INFORMATIONS  -->
@@ -59,28 +80,7 @@
                         <input type="tel" name="phone" id="phone" placeholder="+243123456789"><br>
                         <label for="ville">Dans quelle ville habitez-vous?</label><br>
                         <input type="text" name="town" id="ville"><br>
-                        <button class="next-btn" data-target="section2"><a href="#">NEXT</a></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="section2">
-            <div class="global-form2">
-                <div class="left-side2">
-                    <h1>REJOIGNEZ-NOUS ET VIVEZ DES MOMENTS INOUBLIABLES !</h1>
-                </div>
-                <div class="right-side2">
-                    <div class="title2">
-                        <h3>INSCRIVEZ-VOUS</h3>
-                    </div>
-                    <div class="genre">
-                        <h4>Etes-vous un homme ou une femme ?</h4>
-                        <input type="radio" name="sex" id="homme" value="homme">
-                        <label for="homme">Homme</label><br>
-                        <input type="radio" name="sex" id="femme" value="femme">
-                        <label for="femme">Femme</label><br>
-                        <button class="back-btn" data-target="section1"><a href="#">BACK</a></button>
-                        <button class="next-btn" data-target="section3"><a href="#">NEXT</a></button>
+                        <button class="next-btn" type="button" onclick="passerASection3()">NEXT</button>
                     </div>
                 </div>
             </div>
@@ -123,8 +123,8 @@
                         <label for="question8">Seriez-vous prête à vous engager dans les activités de la structure
                             ?</label><br>
                         <input type="text" name="question8" id="question8">
-                        <button class="back-btn" data-target="section2"><a href="#next1">BACK</a></button>
-                        <input type="submit" value="SEND" id="submit">
+                        <button class="back-btn" type="button" onclick="retourSection2()">BACK</button>
+                        <input type="submit" value="ENVOYER" id="submit">
                     </div>
                 </div>
             </div>
@@ -179,31 +179,46 @@
             <p class="p">Tous Droits Reservés.</p>
             </p>
         </div>
-    </footer>
+    </footer>   
 </body>
 <script>
-    const btnMenu = document.querySelector(".menu-btn");
-    const linkMenu = document.querySelector(".menu-liens");
+  window.onload = function () {
+    document.getElementById('section2').style.display = 'none';
+    document.getElementById('section3').style.display = 'none';
+    document.getElementById('alert-homme').style.display = 'none';
+  };
 
-    btnMenu.addEventListener('click', () => {
-        linkMenu.classList.toggle('menu-content')
-    });
-    const nextBtn = document.querySelectorAll(".next-btn");
-    const backBtn = document.querySelectorAll(".back-btn");
-    //Fonction pour aller à la page suivante
-    nextBtn.forEach(btn => {
-        btn.addEventListener("click", () => {
-            const sections = btn.dataset.target;
-            btn.closest("section").style.display = "none";
-            document.getElementById(sections).style.display = "flex";
-        });
-    });
-    // Fonction pour retourner à la page précédente
-    backBtn.forEach(btn => {
-        btn.addEventListener("click", () =>{
-            btn.closest("section").style.display = "none";
-            document.getElementById(btn.dataset.target).style.display = "flex";
-        });
-    });
+  function verifierGenre() {
+    const genreFemme = document.getElementById('femme').checked;
+    const genreHomme = document.getElementById('homme').checked;
+
+    const message = document.getElementById('alert-homme');
+    const section1 = document.getElementById('section1');
+    const section2 = document.getElementById('section2');
+
+    if (genreHomme) {
+      message.style.display = 'block';
+      section2.style.display = 'none';
+    } else if (genreFemme) {
+      message.style.display = 'none';
+      section1.style.display = 'none';
+      section2.style.display = 'block';
+      window.scrollTo({ top: section2.offsetTop, behavior: 'smooth' });
+    } else {
+      alert("Veuillez sélectionner votre genre avant de continuer.");
+    }
+  }
+
+  function passerASection3() {
+    document.getElementById('section2').style.display = 'none';
+    document.getElementById('section3').style.display = 'block';
+    window.scrollTo({ top: section3.offsetTop, behavior: 'smooth' });
+  }
+
+  function retourSection2() {
+    document.getElementById('section3').style.display = 'none';
+    document.getElementById('section2').style.display = 'block';
+    window.scrollTo({ top: section2.offsetTop, behavior: 'smooth' });
+  }
 </script>
 </html>

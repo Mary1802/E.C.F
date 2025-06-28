@@ -75,33 +75,33 @@ header .lien:hover {
     border-color: black;
 }
 
-/* STYLE-SECTION1-FORMULAIRE */
-#section1 {
+/* STYLE-SECTION2-FORMULAIRE */
+#section2 {
     background-color: rgb(243, 101, 148);
     padding-top: 3%;
     width: 100%;
 }
 
-.global-form {
+.global-form2 {
     display: flex;
     width: 100%;
     gap: 8%;
 }
 
-.left-side {
+.left-side2 {
     width: 30%;
     margin-left: 10%;
     margin-top: 25%;
 }
 
-.left-side h1 {
+.left-side2 h1 {
     font-size: 40px;
     text-align: center;
     color: white;
     font-family: cursive;
 }
 
-.right-side {
+.right-side2 {
     margin-top: 10%;
     width: 40%;
     background-color: rgba(255, 255, 255, 0.89);
@@ -110,12 +110,12 @@ header .lien:hover {
     border-radius: 15px;
 }
 
-.title {
+.title2 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.title h3 {
+.title2 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(243, 101, 148);
     font-weight: bold;
@@ -175,36 +175,34 @@ input[type="date"]:focus {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* STYLE-SECTION2-GENRE */
-#section2 {
+/* STYLE-SECTION1-GENRE */
+#section1 {
     background-color: rgb(243, 101, 148);
     padding-top: 3%;
     width: 100%;
-    display: none;
     transition: 0.5s;
 }
 
-.global-form2 {
+.global-form {
     display: flex;
     width: 100%;
-    margin-bottom: 5%;
     gap: 8%;
 }
 
-.left-side2 {
+.left-side {
     width: 30%;
     margin-left: 10%;
     margin-top: 12%;
 }
 
-.left-side2 h1 {
+.left-side h1 {
     font-size: 35px;
     text-align: center;
     color: white;
     font-family: cursive;
 }
 
-.right-side2 {
+.right-side {
     margin-top: 10%;
     width: 30%;
     background-color: rgba(255, 255, 255, 0.89);
@@ -213,12 +211,12 @@ input[type="date"]:focus {
     border-radius: 15px;
 }
 
-.title2 {
+.title {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.title2 h3 {
+.title h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(243, 101, 148);
     font-weight: bold;
@@ -264,12 +262,12 @@ input[type="date"]:focus {
     background-color: rgb(247, 133, 171);
 }
 
-.genre button a {
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+#alert-homme{
+    display: none; 
+    color: red; 
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 2%;
+} 
 
 /* STYLE-SECTION3-QUIZ */
 #section3 {
@@ -283,7 +281,6 @@ input[type="date"]:focus {
 .global-form3 {
     display: flex;
     width: 100%;
-    margin-bottom: 5%;
     gap: 8%;
 }
 
@@ -365,7 +362,6 @@ textarea:focus {
 
 .quiz input[type="submit"] {
     width: 25%;
-    color: black;
     margin-bottom: 5%;
     margin-top: 2%;
     margin-left: 35%;
@@ -373,13 +369,13 @@ textarea:focus {
     padding-bottom: 2%;
     border: none;
     background-color: rgb(243, 101, 148);
-    border-radius: 5px;
     box-shadow: -2px 2px 5px black;
     transition: 0.5s;
     font-size: 15px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .quiz input[type="submit"]:hover {
     background-color: rgb(247, 133, 171);
 }
@@ -406,7 +402,6 @@ textarea:focus {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 
 /* STYLE-SECTION4-CONTACTS */
 
