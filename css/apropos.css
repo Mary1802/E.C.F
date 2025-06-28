@@ -75,6 +75,7 @@ header .lien:hover {
     background-color: rgb(243, 101, 148);
     overflow: hidden;
     padding-top: 5%;
+    display: flex;
 }
 .presentation-ecf{
     display: flex;
@@ -83,7 +84,7 @@ header .lien:hover {
     gap: 2%;
 }
 .texte{
-    width: 70%;
+    width: 50%;
 }
 .texte p{
     font-size: 20px;
@@ -100,9 +101,10 @@ header .lien:hover {
     height: 100%;
 }
 #image{
-    width: 70%;
-    height: 50%;
-    border-radius: 40%;
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 50%;
     margin-left: 10%;
     margin-top: 10%;
 }
