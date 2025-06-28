@@ -607,11 +607,12 @@ textarea:focus {
         justify-items: center;
     }
     #section1 .right-side .title{
-        justify-items: center;
+        margin-left: 5%;
     }
     #section1 .right-side .infos-personnelles{
-        justify-items: center;
+        margin-left: 5%;
     }
+    /* RESPONSIVE-SECTION2 */
     #section2 .left-side2{
         display: none;
     }
@@ -622,11 +623,12 @@ textarea:focus {
         justify-items: center;
     }
     #section2 .right-side2 .title2{
-        justify-items: center;
+        margin-left: 5%;
     }
-    #section1 .right-side .genre{
-        justify-items: center;
+    #section2 .right-side2 .genre{
+        margin-left: 5%;
     }
+    /* RESPONSIVE-SECTION3 */
     #section3 .left-side3{
         display: none;
     }
@@ -637,10 +639,10 @@ textarea:focus {
         justify-items: center;
     }
     #section3 .right-side3 .title3{
-        justify-items: center;
+        margin-left: 5%;
     }
     #section3 .right-side3 .quiz{
-        justify-items: center;
+        margin-left: 5%;
     }
     /* RESPONSIVE-SECTION4-CONTACT */
     .section4 {
