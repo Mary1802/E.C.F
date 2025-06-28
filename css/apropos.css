@@ -320,6 +320,7 @@ header .lien:hover {
 }
 
 
+
 /* GESTION DU RESPONSIVE */
 @media (max-width: 950px) {
     /* RESPONSIVE-HEADER */
@@ -476,6 +477,9 @@ header .lien:hover {
     }
     .footer{
         margin-left: 20%;
+    }
+    .p{
+        margin-left: 5%;
     }
 }
 

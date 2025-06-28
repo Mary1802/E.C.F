@@ -712,6 +712,9 @@ header .lien:hover {
     .footer{
         margin-left: 20%;
     }
+    .p{
+        margin-left: 5%;
+    }
 }
 
 @media (max-width: 912px) {
