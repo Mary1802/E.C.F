@@ -606,6 +606,12 @@ textarea:focus {
         margin-left: 10%;
         justify-items: center;
     }
+    #section1 .right-side .title{
+        justify-items: center;
+    }
+    #section1 .right-side .infos-personnelles{
+        justify-items: center;
+    }
     #section2 .left-side2{
         display: none;
     }
@@ -615,6 +621,12 @@ textarea:focus {
         margin-left: 10%;
         justify-items: center;
     }
+    #section2 .right-side2 .title2{
+        justify-items: center;
+    }
+    #section1 .right-side .genre{
+        justify-items: center;
+    }
     #section3 .left-side3{
         display: none;
     }
@@ -622,6 +634,12 @@ textarea:focus {
         width: 80%;
         margin-top: 25%;
         margin-left: 10%;
+        justify-items: center;
+    }
+    #section3 .right-side3 .title3{
+        justify-items: center;
+    }
+    #section3 .right-side3 .quiz{
         justify-items: center;
     }
     /* RESPONSIVE-SECTION4-CONTACT */
