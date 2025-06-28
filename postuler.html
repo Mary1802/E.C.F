@@ -4,26 +4,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/projet1/style/postuler.css">
+    <link rel="stylesheet" href="./css/postuler.css">
 </head>
 <body>
-    <div class="background">
-        <img id="background"  src="/projet1/images/pinkB" alt="fond">
-    </div>
-    
-        <!-- GENDER-->
-    <form method="post" action="traitement.php">
-        <div class="presentation">
-            Etes-vous un homme ou une femme ?
-            <br>
-            <input type="radio" name="sexe" id="homme" value="homme">
-            <label for="homme">Homme</label>
-            <br>
-            <input type="radio" name="sexe" id="femme" value="femme">
-            <label for="femme">Femme</label>
-            <br><br>
-            <input type="submit" value="ENVOYER">
+    <!--PAGE D'ACCUEIL-BARRE DE NAVIGATION-->
+    <header>
+        <div class="logo">
+            <img src="images/logoECF.jpg" alt="" id="logo">
+            <h3>EVEIL DE LA CONSCIENCE <br>FEMININE</h3>
         </div>
+        <div class="liens">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+                <li><a class="lien" href="postuler.html">DEVENIR MEMBRE</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="menu-liens">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apropos.html">About</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+            <li><a href="postuler.html">Join</a></li>
+        </ul>
+    </div>
+    <img src="images/menuicon.png" alt="" class="menu-btn">
+
+    <!-- GENDER-->
+    <form method="post" action="traitement.php">
+        <section id="section1">
+            <div class="global-form">
+                <div class="left-side">
+                    <h1>REJOIGNEZ-NOUS ET VIVEZ DES MOMENTS INOUBLIABLES !</h1>
+                </div>
+                <div class="right-side">
+                    <div class="title">
+                        <h3>INSCRIVEZ-VOUS</h3>
+                    </div>
+                    <!-- PERSONAL INFORMATIONS  -->
+                    <div class="infos-personnelles" id="next">
+                        <label for="nom">Entrez votre nom</label> <br>
+                        <input type="text" name="niddle-name" id="nom" placeholder="Nom"><br>
+                        <label for="postnom">Entrez votre postnom</label> <br>
+                        <input type="text" name="last-name" id="postnom" placeholder="Post-nom"><br>
+                        <label for="prenom">Entrez votre prénom</label> <br>
+                        <input type="text" name="first-name" id="prenom" placeholder="Prénom"><br>
+                        <label for="age">Entrez votre date de naissance</label> <br>
+                        <input type="date" name="age" id="age"><br>
+                        <label for="mail">Entrez votre adresse mail</label> <br>
+                        <input type="mail" name="mail" id="mail" placeholder="E-mail"><br>
+                        <label for="phone">Entrez votre numéro de téléphone</label><br>
+                        <input type="tel" name="phone" id="phone" placeholder="+243123456789"><br>
+                        <label for="ville">Dans quelle ville habitez-vous?</label><br>
+                        <input type="text" name="town" id="ville"><br>
+                        <button class="next-btn" data-target="section2"><a href="#">NEXT</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="global-form2">
+                <div class="left-side2">
+                    <h1>REJOIGNEZ-NOUS ET VIVEZ DES MOMENTS INOUBLIABLES !</h1>
+                </div>
+                <div class="right-side2">
+                    <div class="title2">
+                        <h3>INSCRIVEZ-VOUS</h3>
+                    </div>
+                    <div class="genre">
+                        <h4>Etes-vous un homme ou une femme ?</h4>
+                        <input type="radio" name="sex" id="homme" value="homme">
+                        <label for="homme">Homme</label><br>
+                        <input type="radio" name="sex" id="femme" value="femme">
+                        <label for="femme">Femme</label><br>
+                        <button class="back-btn" data-target="section1"><a href="#">BACK</a></button>
+                        <button class="next-btn" data-target="section3"><a href="#">NEXT</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="global-form3">
+                <div class="left-side3">
+                    <h1>REJOIGNEZ-NOUS ET VIVEZ DES MOMENTS INOUBLIABLES !</h1>
+                </div>
+                <div class="right-side3">
+                    <div class="title3">
+                        <h3>INSCRIVEZ-VOUS</h3>
+                    </div>
+                    <!--QUIZ -->
+                    <div class="quiz" id="next2">
+                        <div class="etudes">
+                            <h4>Quel est votre niveau d'études ? </h4><br>
+                            <input type="radio" name="studies" id="pupil" value="Elève">
+                            <label for="pupil">Elève</label><br>
+                            <input type="radio" name="studies" id="student" value="Etudiante">
+                            <label for="student">Etudiante</label> <br>
+                        </div>
+                        <label for="question1"> Où avez-vous entendu parler de l'E.C.F pour la première fois ?</label><br>
+                        <textarea name="question1" id="question1"></textarea><br>
+                        <label for="question2">Qu'est-ce qui vous motive à rejoindre Eveil de la Conscience Féminine ?</label><br>
+                        <textarea name="question2" id="question2" maxlength="200"></textarea><br>
+                        <label for="question3">Quels sont, selon vous, les préjugés envers les femmes ? Que feriez-vous pour y remédier ?</label><br>
+                        <textarea name="question3" id="question3" maxlength="300"></textarea><br>
+                        <label for="question4">Est-ce que vous appartenez déjà à une communauté, une structure ?
+                            Laquelle ?</label><br>
+                        <input type="text" name="question4" id="question4"><br>
+                        <label for="question5">A quelle profession aspirez-vous et pourquoi ?</label><br>
+                        <textarea name="question5" id="question5"></textarea><br>
+                        <label for="question6">Avez-vous déjà rencontré une femme qui vous inspire dans votre futur
+                            métier ? Si oui, racontez en quelques mots.</label><br>
+                        <textarea name="question6" id="question6"></textarea><br>
+                        <label for="question7">Quelle personnalité (femme ou homme) vous inspire par son engagement pour
+                            l'autonomie des femmes ?</label><br>
+                        <input type="text" name="question7" id="question7"><br>
+                        <label for="question8">Seriez-vous prête à vous engager dans les activités de la structure
+                            ?</label><br>
+                        <input type="text" name="question8" id="question8">
+                        <button class="back-btn" data-target="section2"><a href="#next1">BACK</a></button>
+                        <input type="submit" value="EVOYER" id="submit">
+                    </div>
+                </div>
+            </div>
+        </section>
     </form>
+    <!-- SECTION-CONTACTS -->
+    <section class="section4" id="contact.html">
+        <div class="contact">
+            <h2>CONTACTS <h1>|</h1>
+            </h2>
+        </div>
+        <div class="group-icon">
+            <div class="icones">
+                <div class="mail">
+                    <img src="/images/pinkmail.jpg" alt="">
+                    <a href="https://mail.google.com/">ECF@gmail.com</a>
+                </div>
+                <div class="instagram">
+                    <img src="/images/pinkinsta.jpg" alt="">
+                    <a href="https://www.instagram.com/e.c.f_community/">e.c.f_community</a>
+                </div>
+                <div class="whatsapp">
+                    <img src="/images/pinkwhatsapp.jpg" alt="">
+                    <a href="+243823620306">+243823620306 </a>
+                </div>
+                <div class="facebook">
+                    <img src="/images/pinkfb.jpg" alt="">
+                    <a href="#">Éveil-de-la-Conscience-féminine</a>
+                </div>
+            </div>
+            <div class="menu">
+                <h3>Liens utiles</h3>
+                <div class="home">
+                    <img src="/images/pinkhome.png" alt="">
+                    <a href="#index.html">Home</a>
+                </div>
+                <div class="about">
+                    <img src="/images/bookicon.png" alt="">
+                    <a href="apropos.html">About</a>
+                </div>
+                <div class="join">
+                    <img src="/images/peopleicon.png" alt="">
+                    <a href="/postuler.html">Join community</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>© Copyright <strong>Ir Marianah NGOY</strong>.
+            <p class="p">Tous Droits Reservés.</p>
+            </p>
+        </div>
+    </footer>
 </body>
+<script>
+    const btnMenu = document.querySelector(".menu-btn");
+    const linkMenu = document.querySelector(".menu-liens");
+
+    btnMenu.addEventListener('click', () => {
+        linkMenu.classList.toggle('menu-content')
+    });
+    const nextBtn = document.querySelectorAll(".next-btn");
+    const backBtn = document.querySelectorAll(".back-btn");
+    //Fonction pour aller à la page suivante
+    nextBtn.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const sections = btn.dataset.target;
+            btn.closest("section").style.display = "none";
+            document.getElementById(sections).style.display = "flex";
+        });
+    });
+    // Fonction pour retourner à la page précédente
+    backBtn.forEach(btn => {
+        btn.addEventListener("click", () =>{
+            btn.closest("section").style.display = "none";
+            document.getElementById(btn.dataset.target).style.display = "flex";
+        });
+    });
+</script>
 </html>
