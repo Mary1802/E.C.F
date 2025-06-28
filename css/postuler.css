@@ -644,9 +644,6 @@ textarea:focus {
     #section3 .right-side3 .quiz{
         margin-left: 5%;
     }
-    .quiz input[type="submit"]{
-        border-radius: 2px;
-    }
     /* RESPONSIVE-SECTION4-CONTACT */
     .section4 {
         overflow: hidden;
