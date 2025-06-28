@@ -607,7 +607,7 @@ textarea:focus {
         justify-items: center;
     }
     #section1 .right-side .title{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #section1 .right-side .infos-personnelles{
         margin-left: 5%;
@@ -623,7 +623,7 @@ textarea:focus {
         justify-items: center;
     }
     #section2 .right-side2 .title2{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #section2 .right-side2 .genre{
         margin-left: 5%;
@@ -639,7 +639,7 @@ textarea:focus {
         justify-items: center;
     }
     #section3 .right-side3 .title3{
-        margin-left: 5%;
+        margin-left: 10%;
     }
     #section3 .right-side3 .quiz{
         margin-left: 5%;
