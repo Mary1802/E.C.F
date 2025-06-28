@@ -554,6 +554,7 @@ textarea:focus {
 
     .menu-liens.menu-content {
         margin-left: 0;
+        position: fixed;
     }
 
     .menu-liens {
@@ -603,6 +604,7 @@ textarea:focus {
         width: 80%;
         margin-top: 25%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section2 .left-side2{
         display: none;
@@ -611,6 +613,7 @@ textarea:focus {
         width: 80%;
         margin-top: 25%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section3 .left-side3{
         display: none;
@@ -619,6 +622,7 @@ textarea:focus {
         width: 80%;
         margin-top: 25%;
         margin-left: 10%;
+        justify-items: center;
     }
     /* RESPONSIVE-SECTION4-CONTACT */
     .section4 {
@@ -677,6 +681,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section2 .left-side2{
         display: none;
@@ -685,6 +690,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section3 .left-side3{
         display: none;
@@ -693,6 +699,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
 }
 
@@ -715,6 +722,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section2 .left-side2{
         display: none;
@@ -723,6 +731,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section3 .left-side3{
         display: none;
@@ -731,6 +740,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     .contact {
         font-size: 10px;
@@ -765,6 +775,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section2 .left-side2{
         display: none;
@@ -773,6 +784,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section3 .left-side3{
         display: none;
@@ -781,6 +793,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     .contact{
         font-size: 10px;
@@ -813,6 +826,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section2 .left-side2{
         display: none;
@@ -821,6 +835,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     #section3 .left-side3{
         display: none;
@@ -829,6 +844,7 @@ textarea:focus {
         width: 80%;
         margin-top: 30%;
         margin-left: 10%;
+        justify-items: center;
     }
     .contact{
         font-size: 10px;

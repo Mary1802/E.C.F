@@ -351,6 +351,7 @@ header .lien:hover {
 
     .menu-liens.menu-content {
         margin-left: 0;
+        position: fixed;
     }
 
     .menu-liens {
