@@ -47,4 +47,3 @@ Lien vers la démonstration vidéo :
 
 Projet académique – Usage Strictement Pédagogique.
 © 2025 – Université Protestante au Congo - CRIAGI
-
