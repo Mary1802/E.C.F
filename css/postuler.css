@@ -370,9 +370,6 @@ textarea:focus {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.quiz input[type="submit"]:hover {
-    background-color: rgb(247, 133, 171);
-}
 #section3 button {
     width: 25%;
     margin-bottom: 5%;
