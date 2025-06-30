@@ -366,8 +366,6 @@ textarea:focus {
     transition: 0.5s;
     color: black;
     font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
@@ -384,16 +382,11 @@ textarea:focus {
     box-shadow: -2px 2px 5px black;
     transition: 0.5s;
     color: black;
+
 }
 
 #section3 button:hover {
     background-color: rgb(247, 133, 171);
-}
-#section3 button a{
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* STYLE-SECTION4-CONTACTS */
