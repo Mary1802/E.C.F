@@ -360,22 +360,6 @@ textarea:focus {
     border: 1px solid rgba(0, 0, 0, 0.356);
 }
 
-.quiz input[type="submit"] {
-    width: 25%;
-    margin-bottom: 5%;
-    margin-top: 2%;
-    margin-left: 35%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border: none;
-    background-color: rgb(243, 101, 148);
-    box-shadow: -2px 2px 5px black;
-    transition: 0.5s;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .quiz input[type="submit"]:hover {
     background-color: rgb(247, 133, 171);
 }
@@ -698,6 +682,9 @@ textarea:focus {
     #section1 .left-side{
         display: none;
     }
+    #section1 .right-side .genre{
+        margin-left: 5%;
+    }
     #section1 .right-side{
         width: 80%;
         margin-top: 30%;
@@ -707,6 +694,9 @@ textarea:focus {
     #section2 .left-side2{
         display: none;
     }
+    #section2 .right-side2 .infos-personnelles{
+        margin-left: 5%;
+    }
     #section2 .right-side2{
         width: 80%;
         margin-top: 30%;
@@ -715,6 +705,9 @@ textarea:focus {
     }
     #section3 .left-side3{
         display: none;
+    }
+    #section3 .right-side3 .quiz{
+        margin-left: 5%;
     }
     #section3 .right-side3{
         width: 80%;
@@ -739,6 +732,9 @@ textarea:focus {
     #section1 .left-side{
         display: none;
     }
+    #section1 .right-side .genre{
+        margin-left: 5%;
+    }
     #section1 .right-side{
         width: 80%;
         margin-top: 30%;
@@ -748,6 +744,9 @@ textarea:focus {
     #section2 .left-side2{
         display: none;
     }
+    #section1 .right-side2 .infos-personnelles{
+        margin-left: 5%;
+    }
     #section2 .right-side2{
         width: 80%;
         margin-top: 30%;
@@ -756,6 +755,9 @@ textarea:focus {
     }
     #section3 .left-side3{
         display: none;
+    }
+    #section3 .right-side3 .quiz{
+        margin-left: 5%;
     }
     #section3 .right-side3{
         width: 80%;
