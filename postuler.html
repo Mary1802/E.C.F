@@ -182,6 +182,14 @@
     </footer>   
 </body>
 <script>
+  // SCRIPT POUR L'AFFICHAGE DU MENU CACHE
+    const btnMenu = document.querySelector(".menu-btn")
+    const linkMenu = document.querySelector(".menu-liens")
+
+    btnMenu.addEventListener('click', ()=>{
+        linkMenu.classList.toggle('menu-content')
+    })
+// SCRIPT POUR L'AFFICHAGE DU FORMULAIRE
   window.onload = function () {
     document.getElementById('section2').style.display = 'none';
     document.getElementById('section3').style.display = 'none';
