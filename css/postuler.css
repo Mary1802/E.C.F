@@ -360,6 +360,16 @@ textarea:focus {
     border: 1px solid rgba(0, 0, 0, 0.356);
 }
 
+.quiz input[type="submit"] {
+    border: none;
+    background-color: rgb(243, 101, 148);
+    transition: 0.5s;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .quiz input[type="submit"]:hover {
     background-color: rgb(247, 133, 171);
 }
@@ -375,6 +385,7 @@ textarea:focus {
     border-radius: 5px;
     box-shadow: -2px 2px 5px black;
     transition: 0.5s;
+    color: black;
 }
 
 #section3 button:hover {
