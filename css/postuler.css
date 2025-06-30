@@ -360,15 +360,6 @@ textarea:focus {
     border: 1px solid rgba(0, 0, 0, 0.356);
 }
 
-.quiz input[type="submit"] {
-    border: none;
-    background-color: rgb(243, 101, 148);
-    transition: 0.5s;
-    color: black;
-    font-size: 15px;
-    
-}
-
 #section3 button {
     width: 25%;
     margin-bottom: 5%;
