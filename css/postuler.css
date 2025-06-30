@@ -363,7 +363,6 @@ textarea:focus {
 .quiz input[type="submit"] {
     border: none;
     background-color: rgb(243, 101, 148);
-    transition: 0.5s;
     color: white;
     width: 100%;
     padding: 0;
