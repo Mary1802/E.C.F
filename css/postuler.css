@@ -591,22 +591,6 @@ textarea:focus {
         align-items: center;
 
     }
-    /* RESPONSIVE-SECTION1 */
-    #section1 .left-side{
-        display: none;
-    }
-    #section1 .right-side{
-        width: 80%;
-        margin-top: 25%;
-        margin-left: 10%;
-        justify-items: center;
-    }
-    #section1 .right-side .title{
-        margin-left: 10%;
-    }
-    #section1 .right-side .infos-personnelles{
-        margin-left: 5%;
-    }
     /* RESPONSIVE-SECTION2 */
     #section2 .left-side2{
         display: none;
@@ -620,7 +604,23 @@ textarea:focus {
     #section2 .right-side2 .title2{
         margin-left: 10%;
     }
-    #section2 .right-side2 .genre{
+    #section2 .right-side2 .infos-personnelles{
+        margin-left: 5%;
+    }
+    /* RESPONSIVE-SECTION1 */
+    #section1 .left-side{
+        display: none;
+    }
+    #section1 .right-side{
+        width: 80%;
+        margin-top: 25%;
+        margin-left: 10%;
+        justify-items: center;
+    }
+    #section1 .right-side .title{
+        margin-left: 10%;
+    }
+    #section1 .right-side .genre{
         margin-left: 5%;
     }
     /* RESPONSIVE-SECTION3 */
