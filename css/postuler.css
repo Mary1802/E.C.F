@@ -367,6 +367,7 @@ textarea:focus {
     color: white;
     width: 100%;
     padding: 0;
+    margin: 0;
 }
 
 #section3 button {
@@ -541,7 +542,7 @@ textarea:focus {
     .menu-liens {
         display: flex;
         background-color: rgba(8, 7, 7, 0.205);
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(10px);
         margin: 0;
         width: 100%;
         height: 100vh;
